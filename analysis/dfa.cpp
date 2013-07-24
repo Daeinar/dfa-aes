@@ -470,7 +470,8 @@ int main (int argc, char **argv)
       writefile(keys,name);
       j++;
     }
-    printf("\n%lu masterkeys written to %s\n",count,name.c_str());
+    if ( l == -1 ) { j = 0; } else { j = l; } // reset j
+    printf("\n%lu masterkeys written to %s\n\n",count,name.c_str());
   }
   return 0;
 }

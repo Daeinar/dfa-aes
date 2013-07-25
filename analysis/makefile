@@ -4,4 +4,5 @@ main:
 
 clean:
 	rm -f dfa
+	rm -f ../examples/dfa
 

@@ -1,5 +1,5 @@
 
-### C++ implementation of [Differential Fault Analysis][1] (DFA) of AES-128 using a single fault injection. Software features multi-core support via [OpenMP][2].
+#### C++ implementation of [Differential Fault Analysis][1] (DFA) of AES-128 using a single fault injection. Software features multi-core support via [OpenMP][2].
 ---
 
 #### LICENSE
@@ -7,7 +7,7 @@ This program is free software; see [LICENSE][3] for more details.
 
 #### REQUIREMENTS
 * gcc-4.8.1 or newer.
-* OpenMP, see [2].
+* [OpenMP][2].
 * Python 2.7.5 or newer. (optionally)
 * Workstation with at least 32 cores. (recommended)
 

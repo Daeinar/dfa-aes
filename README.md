@@ -14,12 +14,12 @@ This program is free software; see [LICENSE][3] for more details.
 #### USAGE
 **Note**: Some computations might take quite some time, especially in the case
 where the fault location is not known and if too few cores are available. For
-comparison, **example 1** takes *17.5 seconds* for a *known fault location* and
-*279 seconds* for an *unknown fault location* using 32 cores (with 2.1 GHz each,
-Opteron 6172).
-
-**Example 2** takes *784 seconds* for *unknown fault locations* using 40 cores
-of the same machine as above.
+comparison:
+* **Example 1** takes *17.5 seconds* for a *known fault location* and *279
+  seconds* for an *unknown fault location* using 32 cores (with 2.1 GHz each,
+  Opteron 6172).
+* **Example 2** takes *784 seconds* for *unknown fault locations* using 40 cores
+  of the same machine as above.
 
 ##### Example 1
 Differential fault analysis of a single ciphertext pair (see input-1.csv) on 32

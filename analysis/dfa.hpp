@@ -21,9 +21,6 @@
 #include <string.h>
 #include <vector>
 
-#include <xmmintrin.h>
-#include <mmintrin.h>
-
 #include "tables.hpp"
 
 using namespace std;
